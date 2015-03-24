@@ -1,0 +1,37 @@
+<html>
+<head>
+ <title>My First Website</title>
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <meta name="description" content="A jouney of a thousand miles begins with a
+single step." />
+
+<style type=""text/css">
+
+</style>
+</head>
+
+
+<body>
+<button id="stylesChanger">Change the text!</button>
+
+<div id="firstDiv">This is some text</div>
+
+
+
+<script type="text/javascript">
+	var myArray=new Array();
+	myArray[0]="Pizza";
+	myArray[1]="Hot Dogs";
+	console.log(myArray);
+	
+	document.getElementById("stylesChanger").onclick=function() {
+		document.getElementById("firstDiv").innerHTML=myArray[0];
+	}
+	var myArray2=["test", "this", "array", "structure"]
+	console.log(myArray2);
+	
+</script>	
+</body>
+</html>
